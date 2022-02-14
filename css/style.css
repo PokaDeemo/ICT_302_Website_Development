@@ -52,7 +52,7 @@ nav div
 	padding-left: 8px;
 }
 
-nav div input[type=text] 
+nav .search-bar input[type=text] 
 {
   float: left;
   padding: 8px;
@@ -61,7 +61,7 @@ nav div input[type=text]
   border: none;
 }
 
-nav div button 
+nav .search-bar button 
 {
   float: left;
   padding: 6px;
@@ -72,7 +72,7 @@ nav div button
   cursor: pointer;
 }
 
-nav button:hover 
+nav .search-bar button:hover 
 {
   background: #62899b;
 }
