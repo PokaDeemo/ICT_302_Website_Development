@@ -1,0 +1,94 @@
+header
+{
+	background-color: black;
+	width: auto;
+	height: 100px;
+	
+}
+
+header img
+{
+	padding-top:30px;
+	
+}
+
+nav /* styling for side navigations */
+{
+  float: right;
+  height: 1000px;
+  top: 0; 
+  font-style: none;
+  list-style-type: none;
+  background-color: #f5f3f4;
+}
+
+nav ul 
+{
+	padding-top: 100px;
+	list-style-type: none;
+}
+
+nav li a
+{
+  padding: 5px 10px 15px 0px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  font-family: arial;
+}
+
+nav a:hover /* when the navigation got hover-over it will change the colors */
+{
+  background-color: #c60710;
+  opacity: 0.5;
+  font-size: 20px;
+  color: white;
+}
+
+nav div
+{
+	padding-top: 100px;
+	padding-left: 8px;
+}
+
+nav div input[type=text] 
+{
+  float: left;
+  padding: 8px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+}
+
+nav div button 
+{
+  float: left;
+  padding: 6px;
+  margin-top: 8px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+nav button:hover 
+{
+  background: #62899b;
+}
+
+footer /* styling for footer */
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+footer a 
+{
+	color: white;
+}
