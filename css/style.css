@@ -1,3 +1,4 @@
+/* Home-Page CSS-Styling */
 header
 {
 	background-color: black;
@@ -91,4 +92,115 @@ footer /* styling for footer */
 footer a 
 {
 	color: white;
+}
+
+/* Login-Page CSS-Styling */
+.login-webpage 
+{
+	padding-top:100px;
+}
+
+.login-page,.login-page * 
+{
+    box-sizing: border-box;
+    font-family: arial;
+}
+.login-page 
+{
+    max-width: 400px;
+	height: 350px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+	background-color: #c60710;
+}
+
+.login-page-logo 
+{
+    padding: 35px;
+    background: #f5f3f4;
+}
+
+.login-page p
+{
+	font-family: arial;
+	float: left;
+	margin-right: 10px;
+	font-size: 20px;
+	color: #c60710;
+}
+
+.login-page-content
+{
+	padding: 30px;
+}
+
+.login-page-input 
+{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    outline: none;
+    transition: border-color 0.5s;
+}
+
+.login-page-input:focus 
+{
+    border-color: #009578;
+}
+
+.login-page-input::placeholder 
+{
+    color: #aaaaaa;
+}
+
+.login-page-button-submit
+{
+	float: right;
+	padding: 15px 25px 15px 25px;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-color: #2E8BC0;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	margin-left:5px;
+}
+
+.login-page-button-register
+{
+	float: right;
+	padding: 15px 25px 15px 25px;
+	border-radius: 5px;
+	margin-top: 10px;
+	background-color: #939393;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	margin-right:5px;
+}
+
+.login-page button:active 
+{
+    background: black;
+}
+
+.login-page-link
+{
+	margin-top: 15px;
+}
+
+.login-page-text 
+{
+    font-size: 0.9em;
+    color: black;
+    text-decoration: none;
 }
