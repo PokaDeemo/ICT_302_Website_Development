@@ -95,7 +95,7 @@ footer a
 }
 
 /* Login-Page CSS-Styling */
-.login-webpage 
+.webpage 
 {
 	padding-top:100px;
 }
@@ -116,13 +116,13 @@ footer a
 	background-color: #c60710;
 }
 
-.login-page-logo 
+.logo-only 
 {
     padding: 35px;
     background: #f5f3f4;
 }
 
-.login-page p
+.login-page h1
 {
 	font-family: arial;
 	float: left;
@@ -150,7 +150,7 @@ footer a
 
 .login-page-input:focus 
 {
-    border-color: #009578;
+    border-color: black;
 }
 
 .login-page-input::placeholder 
@@ -177,7 +177,7 @@ footer a
 {
 	float: right;
 	padding: 15px 25px 15px 25px;
-	border-radius: 5px;
+	border-radius: 10px;
 	margin-top: 10px;
 	background-color: #939393;
 	color: #ffffff;
@@ -201,6 +201,204 @@ footer a
 .login-page-text 
 {
     font-size: 0.9em;
-    color: black;
+    color: white;
     text-decoration: none;
+}
+
+/* Reset Password Page CSS Styling */
+.forgetpassword-page,.forgetpassword-page* 
+{
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.forgetpassword-page 
+{
+    max-width: 450px;
+	height: 450px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+	background-color: #c60710;
+}
+
+.forgetpassword-page h1
+{
+	font-family: arial;
+	float: left;
+	margin-right: 20px;
+	font-size: 20px;
+	color: #c60710;
+}
+
+.ForgetPassword-page-content
+{
+	padding: 30px;
+	height: 100px;
+	padding-left: 10px;
+}
+
+
+.ForgetPassword-page-content p 
+{
+	color: white; 
+	font-family: Verdana;
+	font-size: 15px;
+}
+
+.ForgetPassword-input 
+{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    outline: none;
+    transition: border-color 0.5s;
+}
+
+.ForgetPassword-input:focus 
+{
+    border-color: black;
+}
+
+.ForgetPassword-input::placeholder 
+{
+    color: #aaaaaa;
+}
+
+.ForgetPassword-button-reset
+{
+	float: right;
+	padding: 15px 25px 15px 25px;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-color: #2E8BC0;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	margin-left:5px;
+}
+
+.ForgetPassword-button-clear
+{
+	float: right;
+	padding: 15px 25px 15px 25px;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-color: #939393;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	margin-right:5px;
+}
+
+.forgetpassword-page button:active 
+{
+    background: black;
+}
+
+/* Registration Page CSS Styling */
+.registration-page,.registration-page* 
+{
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.registration-page 
+{
+    max-width: 450px;
+	height: 530px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+	background-color: #c60710;
+}
+
+.registration-page h1
+{
+	font-family: arial;
+	float: left;
+	margin-right: 15px;
+	font-size: 20px;
+	color: #c60710;
+}
+
+.registration-content
+{
+	padding: 30px;
+	height: 100px;
+	padding-left: 10px;
+}
+
+
+.registration-content p 
+{
+	color: white; 
+	font-family: Verdana;
+	font-size: 15px;
+}
+
+.registration-input 
+{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    outline: none;
+    transition: border-color 0.5s;
+}
+
+.registration-input:focus 
+{
+    border-color: black;
+}
+
+.ForgetPassword-input::placeholder 
+{
+    color: #aaaaaa;
+}
+
+.registration-button-register
+{
+	float: right;
+	padding: 15px 25px 15px 25px;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-color: #2E8BC0;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	margin-left:5px;
+}
+
+.registration-button-clear
+{
+	float: right;
+	padding: 15px 25px 15px 25px;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-color: #939393;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	margin-right:5px;
+}
+
+.registration-page button:active 
+{
+    background: black;
 }
