@@ -78,6 +78,13 @@ nav .search-bar button:hover
   background: #62899b;
 }
 
+nav .current 
+{
+	background-color: #606060;
+	background: rgba(0,0,0.5,0.6);
+	color: white;
+}
+
 footer /* styling for footer */
 {
   position: fixed;
@@ -335,7 +342,7 @@ footer a
 {
 	padding: 30px;
 	height: 100px;
-	padding-left: 10px;
+	padding-left: 5px;
 }
 
 
@@ -399,6 +406,99 @@ footer a
 }
 
 .registration-page button:active 
+{
+    background: black;
+}
+
+/* Setting-Page CSS Styling */
+.setting-page,.setting-page* 
+{
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.setting-page 
+{
+    max-width: 700px;
+	height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+	margin: 0 auto;
+}
+
+.setting-header h1
+{
+	font-family: arial;
+	margin-left: 300px;
+	text-align: left;
+	color: #606060;
+}
+
+.setting-page content
+{
+	padding: 30px;
+	height: 100px;
+	padding-left: 5px;
+}
+
+.setting-page p 
+{
+	color: black; 
+	font-family: Verdana;
+	font-size: 20px;
+}
+
+.setting-input 
+{
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    outline: none;
+    transition: border-color 0.5s;
+}
+
+.setting-input:focus 
+{
+    border-color: black;
+}
+
+.setting-input::placeholder 
+{
+    color: #aaaaaa;
+}
+
+.setting-button-update
+{
+	padding: 15px 25px 15px 25px;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-color: #2E8BC0;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	margin-left:5px;;
+}
+
+.setting-button-cancel
+{
+	padding: 15px 25px 15px 25px;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-color: #939393;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	margin-right:5px;
+}
+
+.setting-page button:active 
 {
     background: black;
 }
