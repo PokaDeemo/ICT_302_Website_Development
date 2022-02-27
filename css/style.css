@@ -1,4 +1,5 @@
 /* Home-Page CSS-Styling */
+/* Styling for Header */
 header
 {
 	background-color: black;
@@ -12,8 +13,10 @@ header img
 	padding-top:30px;
 	
 }
+/* End of Styling for Header */
 
-nav /* styling for side navigations */
+ /* styling for side navigations */
+nav
 {
   float: right;
   height: 1000px;
@@ -21,6 +24,7 @@ nav /* styling for side navigations */
   font-style: none;
   list-style-type: none;
   background-color: #f5f3f4;
+  border-left: solid 1px black;
 }
 
 nav ul 
@@ -85,7 +89,8 @@ nav .current
 	color: white;
 }
 
-footer /* styling for footer */
+/* styling for footer */
+footer 
 {
   position: fixed;
   left: 0;
@@ -101,12 +106,230 @@ footer a
 	color: white;
 }
 
+
 /* Login-Page CSS-Styling */
 .webpage 
 {
 	padding-top:100px;
 }
 
+/* Slideshow Styling */
+.slideshow 
+{
+	padding-top: 10px;
+	background-color: #b0273c;
+	border: solid 1px black;
+}
+
+.slideshow-container 
+{
+  max-width: 800px;
+  position: relative;
+  padding-right: 250px;
+  margin: 0 auto;
+}
+
+.dot 
+{
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active 
+{
+  background-color: #717171;
+}
+
+.fade 
+{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade 
+{
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade 
+{
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) 
+{
+  .text {font-size: 11px}
+}
+/* End Of SlideShow Styling */
+
+/* Homepage Content Styling */
+
+.SPE-content 
+{
+	padding-top: 50px;
+	background-color: #f5f3f4;
+	width: 800px;
+	height: 500px;
+	line-height: 1.5em;
+	float: left;
+	border-top: solid 3px black;
+	border-right: solid 2px #f5f3f4;
+}
+
+.SPE-content img
+{
+	display: inline-block;
+	float: left;
+	padding-left: 20px;
+}
+
+.SPE-content h1
+{
+	color: #606060;
+	font-family:Verdana;
+	font-size: 35px;
+	text-decoration: underline;
+	margin-left: 150px;
+}
+
+.SPE-content h2
+{
+	color: #606060;
+	font-family:Verdana;
+	font-size: 25px;
+	margin-left: 150px;	
+}
+
+.SPE-content p 
+{
+	color: #c60710;
+	font-style: italic;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 20px;
+	margin-left: 150px;
+}
+
+.SPEbutton
+{
+	padding: 15px 40px 15px 40px;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-color: #2E8BC0;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 350px;
+}
+
+.SPEbutton:active 
+{
+    background: black;
+}
+
+.weekly-content 
+{
+	padding-top: 50px;
+	background-color: #f5f3f4;
+	width: 800px;
+	height: 500px;
+	line-height: 1.5em;
+	float: right;
+	border-top: solid 3px black;
+	border-left: solid 3px #f5f3f4;
+}
+
+.SPE-content img
+{
+	display: inline-block;
+	float: left;
+	padding-left: 20px;
+}
+
+.weekly-content h1
+{
+	color: #2E8BC0;
+	font-family:Verdana;
+	font-size: 35px;
+	text-decoration: underline;
+	margin-left: 180px;
+}
+
+.weekly-content img
+{
+	display: inline-block;
+	float: left;
+	padding-left: 20px;
+}
+
+
+.weekly-content h2
+{
+	color: #606060;
+	font-family:Verdana;
+	font-size: 25px;
+	margin-left: 180px;	
+	line-height: 1.5em;
+}
+
+.weekly-content p 
+{
+	color: #c60710;
+	font-style: italic;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 20px;
+	margin-left: 350px;
+}
+
+.weeklybutton
+{
+	padding: 15px 40px 15px 40px;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-color: #2E8BC0;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 350px;
+}
+
+.weeklybutton:active 
+{
+    background: black;
+}
+
+.arrow 
+{
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right 
+{
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* End Of Homepage Styling */
+
+/* Login-Page Styling */
 .login-page,.login-page * 
 {
     box-sizing: border-box;
@@ -211,6 +434,7 @@ footer a
     color: white;
     text-decoration: none;
 }
+/* End Of login-page Styling */
 
 /* Reset Password Page CSS Styling */
 .forgetpassword-page,.forgetpassword-page* 
@@ -310,6 +534,7 @@ footer a
 {
     background: black;
 }
+/* End Of reset-password Styling */
 
 /* Registration Page CSS Styling */
 .registration-page,.registration-page* 
@@ -409,6 +634,7 @@ footer a
 {
     background: black;
 }
+/* End Of registration Styling */
 
 /* Setting-Page CSS Styling */
 .setting-page,.setting-page* 
@@ -502,9 +728,10 @@ footer a
 {
     background: black;
 }
+/* End Of setting-page Styling */
+
 
 /* Contact-Page CSS Styling */
-
 .contact-header h1
 {
 	font-family: arial;
@@ -514,7 +741,6 @@ footer a
 }
 
 /* ALERT BUTTON STYLING */
-
 .reportbutton
 {
 	float: right;
@@ -608,6 +834,7 @@ footer a
 	filter: drop-shadow(2px 2px 2px #222);
 	width: 50%;
 }
+
 .content-title h1 
 {
 	padding-top: 70px;
@@ -625,7 +852,7 @@ footer a
 .contact p
 {
 	line-height: 2em;
-}
+} 
 
 .content1 
 {
@@ -665,3 +892,4 @@ footer a
 	font-family: arial;
 	margin-right: 50px;
 }
+/* End Of Contact-Page Styling */
