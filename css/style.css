@@ -4,7 +4,7 @@ header
 {
 	background-color: black;
 	width: auto;
-	height: 100px;
+	height: 10%;
 	
 }
 
@@ -19,12 +19,12 @@ header img
 nav
 {
   float: right;
-  height: 1000px;
-  top: 0; 
+  height: 1100px;
   font-style: none;
   list-style-type: none;
   background-color: #f5f3f4;
   border-left: solid 1px black;
+  margin: 0 auto;
 }
 
 nav ul 
@@ -119,11 +119,12 @@ footer a
 	padding-top: 10px;
 	background-color: #b0273c;
 	border: solid 1px black;
+	margin: 0 auto;
 }
 
 .slideshow-container 
 {
-  max-width: 800px;
+  max-width: 50%;
   position: relative;
   padding-right: 250px;
   margin: 0 auto;
@@ -171,7 +172,6 @@ footer a
 /* End Of SlideShow Styling */
 
 /* Homepage Content Styling */
-
 .SPE-content 
 {
 	padding-top: 50px;
@@ -182,6 +182,7 @@ footer a
 	float: left;
 	border-top: solid 3px black;
 	border-right: solid 2px #f5f3f4;
+	margin:0 auto;
 }
 
 .SPE-content img
@@ -248,6 +249,7 @@ footer a
 	float: right;
 	border-top: solid 3px black;
 	border-left: solid 3px #f5f3f4;
+	margin:0 auto;
 }
 
 .SPE-content img
@@ -326,7 +328,6 @@ footer a
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
-
 /* End Of Homepage Styling */
 
 /* Login-Page Styling */
@@ -893,3 +894,92 @@ footer a
 	margin-right: 50px;
 }
 /* End Of Contact-Page Styling */
+
+/* Weekly Upload Page Styling */
+.weekly-header h1
+{
+	font-family: arial;
+	margin-left: 300px;
+	text-align: left;
+	color: #606060;
+}
+
+.weekly-upload
+{
+	background-color: #f5f3f4;
+	margin-left: 250px;
+	margin-top: 50px;
+	width: 60%;
+	height: 600px;
+}
+
+.weekly-upload h1
+{
+	font-family: arial;
+	padding-top: 50px;
+	color: #606060;
+	text-decoration: underline;
+}
+
+ .upload-container 
+{
+   position: relative;
+   margin-left: 200px;
+   padding-top: 50px;
+}
+.upload-container input 
+{
+    border: 2px solid #000000;
+    background: #2E8BC0;
+    outline: 2px dashed #FFFFFF;
+    outline-offset: -10px;
+    padding: 100px 0px 100px 250px;
+    text-align: center !important;
+    width: 500px;
+}
+.upload-container input:hover 
+{
+    background: #ddd;
+}
+.upload-container:before 
+ {
+    position: absolute;
+    bottom: 50px;
+    left: 245px;
+    content: " (or) Drag and Drop files here. ";
+	color: #FFFFFF;
+    font-weight: 900;
+}
+
+.upload-btn 
+{
+	padding: 15px 25px 15px 25px;
+	border-radius: 10px;
+	background-color: #2E8BC0;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	font-weight: bold;
+    margin-left: 35%;
+}
+
+.delete-btn
+{
+	padding: 15px 25px 15px 25px;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-color: #939393;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	margin-right:5px;
+}
+
+.Weekly-Upload button:active 
+{
+    background: black;
+}
+/* END OF Weekly Upload Page Styling */
