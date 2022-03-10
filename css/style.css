@@ -1053,3 +1053,111 @@ footer a
     background: black;
 }
 /* END OF SPE Page Styling */
+
+/* Styling for UC Edit and Review Page */
+.graph-content 
+{
+	padding-top: 10px;
+	padding-left: 20px;
+	background-color: #f5f3f4;
+	width: 765px;
+	height: auto;
+	line-height: 1.5em;
+	float: left;
+	padding-bottom: 20px;
+}
+
+.graph-content h2 
+{
+	font-family: arial;
+	color: #606060;
+	text-decoration: underline;
+}
+
+.graph1
+{
+	padding-left: 50px;
+}
+
+.SPEprogression
+{
+	padding-top: 10px;
+	padding-left: 20px;
+	background-color: #f5f3f4;
+	width: 800px;
+	height: 688px;
+	line-height: 1.5em;
+	float: right;
+	padding-bottom: 20px;
+}
+
+.SPEprogression h2 
+{
+	font-family: arial;
+	color: #606060;
+	text-decoration: underline;
+}
+
+.container 
+{
+  width: 80%;
+  background-color: black;
+}
+
+.skills 
+{
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.complete 
+{
+	width: 45%; 
+	background-color: #2196F3;
+}
+
+.SPEprogression p 
+{
+	background: transparent; /* For overriding */
+	border: none; /* For overriding */
+	font-family: Verdana;
+	color: #606060;
+}
+
+.SPEprogressioncontent 
+{
+	background-color: white;
+	width: auto;
+	height: auto;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.not-complete 
+{
+	width: 55%; 
+	background-color: red;
+}
+
+.download
+{
+	padding: 25px 35px 25px 35px;
+	border-radius: 10px;
+	margin-top: 50px;
+	background-color: #2E8BC0;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	margin-left:5px;
+	font-size: 20px;
+}
+
+.download-button button:active 
+{
+    background: black;
+}
