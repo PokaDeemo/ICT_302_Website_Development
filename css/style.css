@@ -983,3 +983,73 @@ footer a
     background: black;
 }
 /* END OF Weekly Upload Page Styling */
+
+/* Styling for SPE webpage */
+.SPE-header h1
+{
+	font-family: arial;
+	margin-left: 300px;
+	text-align: left;
+	color: #606060;
+}
+
+.spepage-content 
+{
+	padding-top: 10px;
+	background-color: #f5f3f4;
+	width: 900px;
+	height: auto;
+	line-height: 1.5em;
+	margin:0 auto;
+	padding-bottom: 20px;
+}
+
+.header-text 
+{
+	background: transparent; /* For overriding */
+	border: none; /* For overriding */
+	margin: 12px 36px 18px;
+	border-bottom: 1px solid black;
+	font-family: Arial;
+	color: #606060;
+}
+
+.question
+{
+	padding-left: 50px;
+	font-family: sans-serif;
+}
+
+.SPE-button
+{
+	padding: 15px 25px 15px 25px;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-color: #2E8BC0;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	margin-left:5px;
+}
+
+.SPE-clear
+{
+	padding: 15px 25px 15px 25px;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-color: #939393;
+	color: #ffffff;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	margin-right:5px;
+}
+
+.spepage-content button:active 
+{
+    background: black;
+}
+/* END OF SPE Page Styling */
