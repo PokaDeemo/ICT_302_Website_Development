@@ -176,7 +176,7 @@ footer a
 {
 	padding-top: 50px;
 	background-color: #f5f3f4;
-	width: 800px;
+	width: 39.45%;
 	height: 500px;
 	line-height: 1.5em;
 	float: left;
@@ -189,7 +189,7 @@ footer a
 {
 	display: inline-block;
 	float: left;
-	padding-left: 20px;
+	padding-left: 5%;
 }
 
 .SPE-content h1
@@ -198,7 +198,7 @@ footer a
 	font-family:Verdana;
 	font-size: 35px;
 	text-decoration: underline;
-	margin-left: 150px;
+	margin-left: 30%;
 }
 
 .SPE-content h2
@@ -206,7 +206,7 @@ footer a
 	color: #606060;
 	font-family:Verdana;
 	font-size: 25px;
-	margin-left: 150px;	
+	margin-left: 30%;	
 }
 
 .SPE-content p 
@@ -216,7 +216,7 @@ footer a
 	font-weight: bold;
 	font-family: arial;
 	font-size: 20px;
-	margin-left: 150px;
+	margin-left: 25%;
 }
 
 .SPEbutton
@@ -231,7 +231,8 @@ footer a
 	border: none;
 	font-weight: bold;
 	font-size: 20px;
-	margin-left: 350px;
+	margin-left: 40%;
+	
 }
 
 .SPEbutton:active 
@@ -243,7 +244,7 @@ footer a
 {
 	padding-top: 50px;
 	background-color: #f5f3f4;
-	width: 800px;
+	width: 45%;
 	height: 500px;
 	line-height: 1.5em;
 	float: right;
@@ -256,7 +257,7 @@ footer a
 {
 	display: inline-block;
 	float: left;
-	padding-left: 20px;
+	padding-left: 20%;
 }
 
 .weekly-content h1
@@ -265,14 +266,14 @@ footer a
 	font-family:Verdana;
 	font-size: 35px;
 	text-decoration: underline;
-	margin-left: 180px;
+	margin-left: 20%;
 }
 
 .weekly-content img
 {
 	display: inline-block;
 	float: left;
-	padding-left: 20px;
+	padding-left: 5%;
 }
 
 
@@ -281,7 +282,7 @@ footer a
 	color: #606060;
 	font-family:Verdana;
 	font-size: 25px;
-	margin-left: 180px;	
+	margin-left: 20%;	
 	line-height: 1.5em;
 }
 
@@ -292,7 +293,7 @@ footer a
 	font-weight: bold;
 	font-family: arial;
 	font-size: 20px;
-	margin-left: 350px;
+	margin-left: 40%;
 }
 
 .weeklybutton
@@ -307,7 +308,7 @@ footer a
 	border: none;
 	font-weight: bold;
 	font-size: 20px;
-	margin-left: 350px;
+	margin-left: 40%;
 }
 
 .weeklybutton:active 
@@ -825,8 +826,8 @@ footer a
 .contact 
 {
 	background-color: #f5f3f4;
-	height: 800px;
-	width: auto;
+	height: 100%;
+	width: 84%;
 	margin-top: 130px;
 	position: absolute;
 }
@@ -838,7 +839,7 @@ footer a
 
 .content-title h1 
 {
-	padding-top: 70px;
+	padding-top: 5%;
 	color: #606060;
 	font-family: Verdana;
 	text-decoration: underline;
@@ -858,8 +859,7 @@ footer a
 .content1 
 {
 	float: left;
-	margin-top: 50px;
-	margin-left: 65px;
+	margin-top: 5%;
 }
 
 .content1 h2
@@ -878,7 +878,7 @@ footer a
 .content2
 {
 	float: right;
-	margin-top: 50px;
+	margin-top: 5%;
 }
 
 .content2 h2
@@ -891,7 +891,7 @@ footer a
 .content2 p 
 {
 	font-family: arial;
-	margin-right: 50px;
+	margin-right: 5%;
 }
 /* End Of Contact-Page Styling */
 
