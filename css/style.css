@@ -20,6 +20,7 @@ nav
 {
   float: right;
   height: 1100px;
+  width: 15%;
   font-style: none;
   list-style-type: none;
   background-color: #f5f3f4;
@@ -29,13 +30,13 @@ nav
 
 nav ul 
 {
-	padding-top: 100px;
+	padding-top: 30%;
 	list-style-type: none;
 }
 
 nav li a
 {
-  padding: 5px 10px 15px 0px;
+  padding: 5% 10% 5% 0%;
   text-decoration: none;
   font-size: 20px;
   color: black;
@@ -53,8 +54,8 @@ nav a:hover /* when the navigation got hover-over it will change the colors */
 
 nav div
 {
-	padding-top: 100px;
-	padding-left: 8px;
+	padding-top: 40%;
+	padding-left: 3%
 }
 
 nav .search-bar input[type=text] 
